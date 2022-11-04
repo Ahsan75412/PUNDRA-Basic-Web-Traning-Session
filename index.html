@@ -11,7 +11,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/style.css">
-    <title>Hello, world!</title>
+    <title>Ahsan's World</title>
 </head>
 
 <body>
@@ -30,25 +30,22 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#pricing">Pricing</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
-                        </div>
+                  
+                    <li class="nav-item">
+                        <a class="nav-link" href="#qustions">Qustions</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-sm-2" type="text" placeholder="Search">
@@ -61,7 +58,7 @@
     <!-- nav end here -->
 
 
-    <div class="banner ">
+    <div class="banner " >
 
         <img class="banner2" src="Images/banner.jpg"
             alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-web-banner&psig=AOvVaw0sCI7X8Q_qknxwtVA5addF&ust=1667627151709000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCKDGt7Lpk_sCFQAAAAAdAAAAABAd">
@@ -72,77 +69,239 @@
 
     <!-- About us  -->
 
-    <div class="about d-flex mt-5 px-3 ">
+    <div class="about d-flex mt-5 px-3 " id="about">
         <div class="about-img  w-25">
             <img class="rounded-full img-fluid" src="./Images/me.jpg" alt="Ahsan">
         </div>
 
-        <div class="about-data w-50 px-5">
+        <div class="about-data w-75 px-5 py-5">
             <h1>Web Developer</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis accusantium et voluptates in hic officia?
                 Vero amet exercitationem numquam enim rerum iste? Repellendus, dolorem modi? Ab, fugit harum placeat
                 autem corrupti nisi tenetur cum inventore repellendus eligendi ad hic ullam veniam voluptas quam
                 dignissimos sint veritatis libero nesciunt enim maxime?</p>
+
+                <button type="button" class="btn btn-success">Available</button>
+        </div>
+    </div>
+
+
+    <!-- skills  -->
+<div id="skills">
+    <div class="skill py-5 px-5" >
+
+        <h2 class="py-5">Skills:</h2>
+        <h4>HTML:</h4>
+        <div class="progress">
+
+            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10"
+                aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h4>CSS:</h4>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%"
+                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h4>Bootstrap:</h4>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h4>JavaScript:</h4>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h4>React:</h4>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%"
+                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </div>
+
+</div>
+   
+
+
+    <!-- card here  -->
+
+    <div class="master-card pt-5 px-5 py-5" id="pricing">
+        <h2 class="text-center text-success py-3">Our Services</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-50">
+                    <img src="./Images/girl.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-danger">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50">
+                    <img src="./Images/girl.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content. Lorem ipsum, um sit molestias.ione illum,atque.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-danger">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-50">
+                    <img src="./Images/girl.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.  show that equal
+                            height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-danger">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
 
 
-    <!-- card here  -->
+    <!-- Ask Qustions section  -->
 
-    <div class="master-card pt-5 px-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100">
-                <img src="./Images/doll.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                    <button type="button" class="btn btn-secondary">BUY NOW</button>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="./Images/doll.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                    <button type="button" class="btn btn-secondary">BUY NOW</button>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img class="h-50" src="./Images/doll.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                    <button type="button" class="btn btn-secondary">BUY NOW</button>
-                </div>
-              </div>
+ <div class="ask-qustions px-5 py-5" id="qustions">
+    <h2 class="text-success">Frequently Ask Qustions: </h2>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Why We Need To Learn Web Development?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
           </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              What Is JavaScript?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               What is React?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+ </div>
+
+
+
+
+<!-- from here  -->
+
+
+<div class="form-body py-5" id="contact">
+    <div class="form-body">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Register Today</h3>
+                        <p>Fill in the data below.</p>
+                        <form class="requires-validation" novalidate>
+    
+                            <div class="col-md-12">
+                               <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                               <div class="valid-feedback">Username field is valid!</div>
+                               <div class="invalid-feedback">Username field cannot be blank!</div>
+                            </div>
+    
+                            <div class="col-md-12">
+                                <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                                 <div class="valid-feedback">Email field is valid!</div>
+                                 <div class="invalid-feedback">Email field cannot be blank!</div>
+                            </div>
+    
+                           <div class="col-md-12">
+                                <select class="form-select mt-3" required>
+                                      <option selected disabled value="">Position</option>
+                                      <option value="jweb">Junior Web Developer</option>
+                                      <option value="sweb">Senior Web Developer</option>
+                                      <option value="pmanager">Project Manager</option>
+                               </select>
+                                <div class="valid-feedback">You selected a position!</div>
+                                <div class="invalid-feedback">Please select a position!</div>
+                           </div>
+    
+    
+                           <div class="col-md-12">
+                              <input class="form-control" type="password" name="password" placeholder="Password" required>
+                               <div class="valid-feedback">Password field is valid!</div>
+                               <div class="invalid-feedback">Password field cannot be blank!</div>
+                           </div>
+    
+    
+                           <div class="col-md-12 mt-3">
+                            <label class="mb-3 mr-1" for="gender">Gender: </label>
+    
+                            <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
+                            <label class="btn btn-sm btn-outline-secondary" for="male">Male</label>
+    
+                            <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
+                            <label class="btn btn-sm btn-outline-secondary" for="female">Female</label>
+    
+                            <input type="radio" class="btn-check" name="gender" id="secret" autocomplete="off" required>
+                            <label class="btn btn-sm btn-outline-secondary" for="secret">Secret</label>
+                               <div class="valid-feedback mv-up">You selected a gender!</div>
+                                <div class="invalid-feedback mv-up">Please select a gender!</div>
+                            </div>
+    
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                          <label class="form-check-label">I confirm that all data are correct</label>
+                         <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+                        </div>
+                  
+    
+                            <div class="form-button mt-3">
+                                <button id="submit" type="submit" class="btn btn-primary">Register</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
 
 
-
-
-
-
-
-
-
-
-
-
+<footer>
+    <p class="text-center pt-5">All Right reserved&#169; ahsanportfolio-2022</p>
+</footer>
 
 
 
